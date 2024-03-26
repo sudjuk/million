@@ -1,8 +1,12 @@
-﻿// practic.h : включаемый файл для стандартных системных включаемых файлов
-// или включаемые файлы для конкретного проекта.
+﻿#include <iostream>
 
-#pragma once
+class questions {
+	char* name;
+	char* answer1;
+	char* answer2;
+	char* answer3;
+	char* answer4;
+	int true_answer;
 
-#include <iostream>
+};
 
-// TODO: установите здесь ссылки на дополнительные заголовки, требующиеся для программы.
